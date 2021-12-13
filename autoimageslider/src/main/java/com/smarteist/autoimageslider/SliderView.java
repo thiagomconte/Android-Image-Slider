@@ -427,7 +427,7 @@ public class SliderView extends FrameLayout
      *                 items manually.
      */
     public void setCurrentPagePosition(int position) {
-        mSliderPager.setCurrentItem(position, true);
+        mSliderPager.setCurrentItem(position, false);
     }
 
     /**
